@@ -6,5 +6,5 @@ app = FastAPI()
 @app.get("/bmi")
 def get_bmi(weight:float,height:float):
     bmi,cat = bmi_calculator(height,weight)
-    return {'BMI':round(bmi,2),
+    return {'bmi':round(bmi,2),
             'category':cat}
