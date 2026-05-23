@@ -1,0 +1,28 @@
+What is a REST API?
+
+A REST API is a way for applications to communicate over the internet 
+using HTTP.
+
+REST stands for : Representational State Transfer
+
+The 4 Main HTTP Methods
+1. GET → Read data
+2. POST → Create data
+3. PUT → Update data
+4. DELETE → Remove data
+
+You can host a simple Python application with a REST API very easily 
+using frameworks like 
+FastAPI or Flask
+
+Running app on local host
+requirements :  uvicorn fastapi
+
+uvicorn main:app --reload
+
+http://127.0.0.1:8000
+or
+http://127.0.0.1:8000/info
+
+FastAPI Swagger UI
+http://127.0.0.1:8000/docs
