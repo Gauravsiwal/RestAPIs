@@ -26,3 +26,6 @@ http://127.0.0.1:8000/info
 
 FastAPI Swagger UI
 http://127.0.0.1:8000/docs
+
+Render Web Service (Back Command)
+uvicorn main:app --host 0.0.0.0 --port 10000
