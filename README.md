@@ -1,2 +1,2 @@
 # RestAPIs
-Various RestAPI based applications
+This is a small demo of RestAPI's
